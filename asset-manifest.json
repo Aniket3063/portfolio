@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a10baeec.css",
+    "main.js": "/portfolio/static/js/main.57308e86.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.7fb9101a2724b08f9be0.jpg",
+    "static/media/slatyphoto.jpg": "/portfolio/static/media/slatyphoto.08a677dcd69e5acd89e2.jpg",
+    "static/media/Agustina-Signature.otf": "/portfolio/static/media/Agustina-Signature.320d237b3c9e9e794388.otf",
+    "index.html": "/portfolio/index.html",
+    "main.a10baeec.css.map": "/portfolio/static/css/main.a10baeec.css.map",
+    "main.57308e86.js.map": "/portfolio/static/js/main.57308e86.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a10baeec.css",
+    "static/js/main.57308e86.js"
+  ]
+}
