@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+:root{
+  --bg-color:#133378;
+  --text-color: wheat;
+  --hover-color: #64ffda;
+  --p-color: aliceblue;
+  --primary-color: rgba(19, 51, 120, 0.7);
+  --secondary-color: rgba(245, 222, 179, 0.7);
+  --transition: all 1s cubic-bezier(0.645,0.045,0.355,1);
+}
+*{
+  /* margin: auto; */
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  color: aliceblue;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  padding: 0 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-column{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+h2{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}
+p{
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  color: #a3aac9;
+  font-size: 20px;
+  line-height: 1.5;
+}
+section{
+  padding: 100px 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1024px){
+  .content{
+    padding: 0 100px;
   }
-  to {
-    transform: rotate(360deg);
+  section{
+    padding: 70px 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  .content{
+    padding: 0;
+  }
+  section{
+    padding: 70px 50px;
+  }
+}
+@media screen and (max-width: 426px){
+
+  section{
+    padding: 20px;
   }
 }

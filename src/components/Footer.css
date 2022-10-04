@@ -1,0 +1,27 @@
+footer{
+    margin: 50px;
+}
+footer .footer{
+    text-align: center;
+    padding: 5vh 0;
+}
+footer .footer a{
+    text-decoration: none;
+    color: #ccd6f6;
+    letter-spacing: .1em;
+    font-size: 16px;
+}
+footer .footer a:hover{
+    color: #64ffda;
+}
+
+@media screen and (max-width: 1024px){
+    footer .footer a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 425px){
+    footer .footer a{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,25 @@
+.project{
+    max-width: 1000px;
+    margin: auto;
+}
+.projects-grid {
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    position: relative;
+}
+.project-list:hover{
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)
+     0s, opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    opacity: 1;
+    transform: translateY(-5px);
+
+}
+@media screen and (max-width: 426px){
+    .project{
+        padding: 20px 30px;
+    }
+  }
